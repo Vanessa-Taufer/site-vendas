@@ -8,15 +8,9 @@ body {
 .container {
     display: flex;
     background-color:#333;
-
-
+    color:aliceblue;
+    
 
 }
 
-h1 {
-    color: #ffffff;
-}
 
-p {
-    color:#ffffff
-}

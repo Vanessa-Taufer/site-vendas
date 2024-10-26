@@ -1,6 +1,14 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     text-align: center;
+}
+
+.container {
+    display: flex;
+    background-color: beige;
+
 }
 
 h1 {

@@ -4,17 +4,21 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
 }
-
+{}
 .container {
     background-color:#333;
     color:aliceblue;
-    align-items: center; 
-    justify-content: space-between;
     padding: 10px;
     display: flex;
    
 }
 
+#logo {
+    width: 100px;
+    height: auto;
+    align-items: center; 
+    justify-content: space-between;
+}
 .menu {
     display: flex;
     padding: 0; 

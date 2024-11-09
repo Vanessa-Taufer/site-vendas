@@ -8,8 +8,9 @@ body {
 .container {
     background-color:#333;
     color:aliceblue;
-    
-
+    align-items: center; 
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .menu {

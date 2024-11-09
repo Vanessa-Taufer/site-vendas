@@ -13,6 +13,20 @@ body {
    
 }
 
+.pagina1 {
+    background-color: #444
+}
+
+.nomeprodutos {
+    display:flex;
+background-color: #fff;
+width:200px;
+height:auto;
+padding:10px;
+margin:0px;
+
+}
+
 #logo {
     width: 100px;
     height: auto;

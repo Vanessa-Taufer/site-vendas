@@ -8,13 +8,13 @@ body {
 .container {
     background-color:#333;
     color:aliceblue;
-    display: flex;
+    
 
 
 }
 
 .menu {
-    display: inline-block;
+    display: flex;
 }
 
 

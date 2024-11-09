@@ -20,7 +20,7 @@ body {
     list-style-type: none;
 }
 
-.li {
+.menu li {
     padding: 30px;
     text-align: center;
 }

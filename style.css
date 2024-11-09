@@ -29,8 +29,15 @@ body {
 }
 
 .menu li {
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
     padding: 30px;
     text-align: center;
+}
+
+.menu li:hover {
+    background-color: #444;
+    color:blue; 
 }
 
 

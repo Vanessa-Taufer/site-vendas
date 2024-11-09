@@ -18,6 +18,7 @@ body {
     margin: 0; 
     justify-content: flex-start;
     list-style-type: none;
+    justify-content: center;
 }
 
 .menu li {

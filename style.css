@@ -23,11 +23,14 @@ background-color: #fff;
 width:500px;
 height:auto;
 padding:10px;
-margin:0px;
-list-style-type: none; 
+margin:0px; 
 
 }
 
+.nomeprodutos ul {
+
+    list-style-type: none; 
+}
 #logo {
     width: 100px;
     height: auto;

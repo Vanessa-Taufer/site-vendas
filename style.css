@@ -13,6 +13,15 @@ body {
    
 }
 
+<!-- Imagem no corpo da página -->
+
+.corpopagina {
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+
 .pagina1 {
     Display: table;
 }

@@ -42,9 +42,7 @@ margin:0px;
     justify-content: center;
 }
 
-.menu {
-    list-style-type: none; 
-}
+
 
 .menu li {
     cursor: pointer;

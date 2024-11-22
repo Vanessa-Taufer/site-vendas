@@ -34,15 +34,18 @@ body {
 
 .pagina1 {
     Display: flex;
+    flex-wrap: wrap;
 }
 
 .nomeprodutos {
 display:flex;
+flex-direction: column;
 background-color: #fff;
 width:500px;
 height:auto;
 padding:10px;
 margin:0px; 
+max-width: 500px;
 
 }
 

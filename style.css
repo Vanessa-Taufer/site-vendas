@@ -30,6 +30,7 @@ margin:0px;
 .nomeprodutos ul {
 
     list-style-type: none; 
+    padding: 0; 
 }
 #logo {
     width: 100px;

@@ -50,6 +50,12 @@ border-radius: 8px;
 
 }
 
+.nomeprodutos li {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
 .nomeprodutos ul {
 
     list-style-type: none; 

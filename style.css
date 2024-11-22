@@ -24,25 +24,27 @@ body {
 
 #rosto {
 
-    width: 80%;
-    max-width: 800px;
+    width: 70%; 
+    max-width: 600px;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    justify-content: space-between;
-    align-items: center;
+    
 }
 
 .pagina1 {
     Display: flex;
     flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
 }
 
 .nomeprodutos {
 display:flex;
 flex-direction: column;
 background-color: #fff;
-width:500px;
+width: 100%; 
 height:auto;
 padding:10px;
 margin:0px; 

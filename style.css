@@ -24,8 +24,8 @@ body {
 
 #rosto {
 
-    width: 70%; 
-    max-width: 600px;
+    width: 100%; 
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
@@ -40,7 +40,7 @@ body {
     gap: 20px;
     flex-wrap: wrap;
     width: 100%;
-    
+
 }
 
 .nomeprodutos {

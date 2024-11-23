@@ -17,6 +17,13 @@ body {
     margin-top: 30px;
 }
 
+#rosto2 {
+
+    width: 60%;
+    max-width: 500px;
+    height: auto;
+}
+
 #rosto {
     width: 60%;
     max-width: 500px;

@@ -1,8 +1,14 @@
-body {
+*{
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: Arial, sans-serif;
     text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
 }
 
 .container {
@@ -10,46 +16,67 @@ body {
     color: aliceblue;
     padding: 10px;
     display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 /*Imagem no corpo da página*/
 .corpopagina {
     margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto1 {
+
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+    width: 400px;
+    height: auto;
+}
+
+.imagem-principal {
+
+    display: flex;
+    justify-content: space-between;
+
+
 }
 
 #rosto2 {
 
-    width: 60%;
-    max-width: 500px;
+    width: 50%;
+    max-width: 200px;
     height: auto;
 }
 
 #rosto {
-    width: 60%;
+    width: 50%;
     max-width: 500px;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    object-fit: cover;
 }
 
 .pagina1 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 20px;
     width: 100%;
+    flex-direction: column;
 }
 
 .nomeprodutos {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    width: 100%;
+    width: 250px;
     padding: 10px;
     margin: 0;
     max-width: 400px;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .nomeprodutos li {

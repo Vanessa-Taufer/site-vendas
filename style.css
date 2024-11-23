@@ -4,31 +4,25 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
 }
-{}
+
 .container {
-    background-color:#333;
-    color:aliceblue;
+    background-color: #333;
+    color: aliceblue;
     padding: 10px;
     display: flex;
-    
-   
 }
 
-<!-- Imagem no corpo da página -->
-
+/*Imagem no corpo da página*/
 .corpopagina {
-
-    margin-top: 30px;   
-
+    margin-top: 30px;
 }
 
 #rosto {
-
     width: 60%;
     max-width: 500px;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     object-fit: cover;
 }
 
@@ -38,19 +32,17 @@ body {
     align-items: center;
     gap: 20px;
     width: 100%;
-
 }
 
 .nomeprodutos {
-display:flex;
-flex-direction: column;
-background-color: #fff;
-width: 100%; 
-padding:10px;
-margin:0; 
-max-width: 400px; 
-border-radius: 8px;
-
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    max-width: 400px;
+    border-radius: 8px;
 }
 
 .nomeprodutos li {
@@ -60,51 +52,51 @@ border-radius: 8px;
 }
 
 .nomeprodutos ul {
-
-    list-style-type: none; 
-    padding: 0; 
+    list-style-type: none;
+    padding: 0;
 }
+
 #logo {
     width: 100px;
     height: auto;
-    align-items: center; 
+    align-items: center;
     justify-content: space-between;
 }
+
 .menu {
     display: flex;
-    padding: 0; 
-    margin: 0; 
+    padding: 0;
+    margin: 0;
     justify-content: flex-start;
     list-style-type: none;
     justify-content: center;
 }
 
-
 .menu li {
     cursor: pointer;
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease;
     padding: 30px;
     text-align: center;
     border-radius: 50%;
- 
+
 }
 
 .menu li:hover {
     background-color: #444;
-    color:blue; 
+    color: blue;
 }
 
 /* Rodapé */
-footer { 
+footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
     text-align: center;
     margin-top: 40px;
 }
+
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
-
